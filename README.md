@@ -201,6 +201,46 @@ index 4780265..78c4b1b 100644
 
 ### Se crea el fichero *"índice.txt"*.
 
+```bash
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ cat > indice.txt
+```
+### Se añaden cambios y se hace un *"commit"*.
+
+```bash
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git commit -m "Se crea índice."
+[main bc12be7] Se crea índice.
+ 2 files changed, 99 insertions(+)
+ create mode 100644 indice.txt
+ ```
+
+ ###  Se hace un *"echo"*.
+
+ ```bash
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ echo "Indice de los capítulos, con conceptos avanzados de git" >> indice.txt
+```
+
+### Se añaden los cambios a la zona de trabajo temporal, se vuelve a hacer un *"commit"* y se muestra quién ha hecho los cambios en el fichero con un *"git annotate"*.
+
+```bash
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git add .
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git commit -m "Añadido el índice."
+[main ff66f14] Añadido el índice.
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git annotate indice.txt
+ff66f149        (   cdiagal     2024-10-14 13:41:12 +0100       1)Indice de los cápitulos, con conceptos avanzados de git.Indice de los capítulos, con conceptos avanzados de git.
+```
+
+---
+
+## -Ejercicio 5.
+
+### Se crea una nueva rama llamada "bibliografía".
+
+```bash
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git checkout -b bibliografía                                                
+Cambiado a nueva rama 'bibliografía'
+```
+
 
 
 

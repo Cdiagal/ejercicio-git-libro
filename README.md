@@ -4,7 +4,11 @@
 
 ## - Ejercicio 1.
 
+<details>
+    <summary>Clic para ver el contenido</summary>
+
 ### Crear la carpeta *Capítulos* y crear dentro el fichero *capítulo1.txt*.
+
 
 ```bash
 pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git log
@@ -17,6 +21,7 @@ pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ mkdir capit
 pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ cat > capitulos/capitulo1.txt
 
 ```
+
 
 ### Se hace un *"commit"* sobre los cambios.
 
@@ -56,11 +61,15 @@ Date:   Mon Oct 14 12:56:25 2024 +0100
 
     Initial commit
 ```
+</details>
 
 ----
 
 
 ## -Ejercicio 2.
+
+<details>
+    <summary>Clic para ver el contenido</summary>
 
 ### Se crea el fichero *"capítulo2.txt"*.
 
@@ -93,10 +102,14 @@ Date:   Mon Oct 14 13:11:41 2024 +0100
 
     Añadido capítulos 1.
 ```
+</details>
 
 ----
 
 ## -Ejercicio 3.
+
+<details>
+    <summary>Clic para ver el contenido</summary>
 
 ### Se crea el fichero *"capítulo3.txt"*.
 
@@ -161,9 +174,14 @@ index 9a06b52..d05f9f3 100644
 
 ```
 
+</details>
+
 ---
 
 ## -Ejercicio 4.
+
+<details>
+    <summary>Clic para ver el contenido</summary>
 
 ### Se crea el fichero *"índice.txt"*.
 
@@ -196,9 +214,14 @@ pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git annotat
 ff66f149        (   cdiagal     2024-10-14 13:41:12 +0100       1)Indice de los cápitulos, con conceptos avanzados de git.Indice de los capítulos, con conceptos avanzados de git.
 ```
 
+</details>
+
 ---
 
 ## -Ejercicio 5.
+
+<details>
+    <summary>Clic para ver el contenido</summary>
 
 ### Se crea una nueva rama llamada "bibliografía".
 
@@ -258,21 +281,42 @@ remote: Resolving deltas: 100% (1/1), completed with 1 local object.
 To https://github.com/Cdiagal/ejercicio-git-libro
    7a47ea7..c0f9a30  main -> main
 ```
+</details>
+
+---
 
 ## -Ejercicio 6.
+
+<details>
+    <summary>Clic para ver el contenido</summary>
 
 ### Se crea el fichero *"capitulos/capitulo4.txt"*.
 
 ```bash
-ro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ cat > capitulos/capitulo4.txt
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ cat > capitulos/capitulo4.txt         
+En este capítulo veremos cómo usar GitHub para alojar repositorios en remoto.
 
 ```
 
-### Se hace un commit con el mensaje *"Añadido capítulo 4"*.
+### Se hace un commit con el mensaje *"Añadido capítulo 4"* y se actualiza en la nube.
 
 ```bash
-
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git add .
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git commit -m "Se añade el capítulo 4"
+[main eeac524] Se añade el capítulo 4
+ 2 files changed, 22 insertions(+), 43 deletions(-)
+ create mode 100644 capitulos/capitulo4.txt
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git push
+Enumerando objetos: 8, listo.
+Contando objetos: 100% (8/8), listo.
+Compresión delta usando hasta 4 hilos
+Comprimiendo objetos: 100% (4/4), listo.
+Escribiendo objetos: 100% (5/5), 705 bytes | 352.00 KiB/s, listo.
+Total 5 (delta 2), reusados 0 (delta 0), pack-reusados 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Cdiagal/ejercicio-git-libro
+   b7c1296..eeac524  main -> main
 ```
-
+</details>
 
 

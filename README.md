@@ -274,9 +274,28 @@ pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git branch 
   remotes/origin/main         6bd9a0f Initial commit
 ```
 
-### Se añade el contenido de la rama *"bibliografía"* con la rama "*main*" mediante un "git merge" y posteriormente se documenta el cambio con un "*commit*".
+### Se añade el contenido de la rama *"bibliografía"* con la rama "*main*" mediante un "git merge" y posteriormente se documenta el cambio con un "*commit*" y git push.
 
+```bash
+bae2@jpexposito-VirtualBox:~/ejercicio-git-libro/ejercicio-git-libro$ git add .
+bae2@jpexposito-VirtualBox:~/ejercicio-git-libro/ejercicio-git-libro$ git commit -m "Se genera un git merge a la rama principal"
+[main c0f9a30] Se genera un git merge a la rama principal
+ 1 file changed, 4 insertions(+)
+bae2@jpexposito-VirtualBox:~/ejercicio-git-libro/ejercicio-git-libro$ git push
+Enumerando objetos: 9, listo.
+Contando objetos: 100% (9/9), listo.
+Compresión delta usando hasta 4 hilos
+Comprimiendo objetos: 100% (5/5), listo.
+Escribiendo objetos: 100% (5/5), 798 bytes | 798.00 KiB/s, listo.
+Total 5 (delta 1), reusados 0 (delta 0), pack-reusados 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Cdiagal/ejercicio-git-libro
+   7a47ea7..c0f9a30  main -> main
+```
 
+## -Ejercicio 6.
+
+### Se crea un 
 
 
 

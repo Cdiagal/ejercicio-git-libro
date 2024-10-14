@@ -534,8 +534,30 @@ Hodson, R. Ry’s Git Tutorial. Smashwords (2014)
 
 ```bash
 
-
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git add .
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git commit -m "Resuelto conflicto de bibliografía"
+[main dd176ca] Resuelto conflicto de bibliografía
+ 2 files changed, 41 insertions(+)
+ create mode 100644 "bibliograf\303\255a.txt"
 
 ```
 
 ### Se muestra la historia del repositorio incluyendo todas las ramas.
+
+```bash
+
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git log --graph --all --oneline
+* dd176ca (HEAD -> main) Resuelto conflicto de bibliografía
+* f60bfff (bibliografía) Se corrigen errores para cambiar de rama y generar fusión
+* c264086 Añadida nueva referencia bibliográfica
+*   8527db4 Merge branch 'bibliografía'
+|\  
+| * 8a9200e Añadida la primera referencia bibliográfica
+* | 6a99125 se añaden las indicaciones del ejercicio7 en README
+* | 9eb7e43 (origin/main, origin/HEAD) se ejecuta git log --graph --all --oneline y se cambia de rama a bibliografía
+* | 9a62fed Se hacen nuevas modificaciones para subsanar errores
+* | eeac524 Se añade el capítulo 4
+* | b7c1296 Se hace merge
+* | c0f9a30 Se genera un git merge a la rama principal
+
+```

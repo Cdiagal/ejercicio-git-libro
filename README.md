@@ -67,3 +67,42 @@ Date:   Mon Oct 14 12:56:25 2024 +0100
 ```bash
 pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ cat > capitulos/capitulo2.txt
 ```
+### Se hace un *"commit"* sobre los cambios.
+
+```bash
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git add .
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git commit -m "Añadido capítulo 2."
+[main d2da645] Añadido capítulo 2.
+ 3 files changed, 57 insertions(+)
+ create mode 100644 capitulos/capitulo2.txt
+ ```
+
+ ### Se muestran los cambios con *"git log"*.
+
+ ```bash
+ pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git log
+commit d2da64531b3d32eba8f48bb1585449d2bf7ff581 (HEAD -> main)
+Author: cdiagal <cdiagalprog@gmail.com>
+Date:   Mon Oct 14 13:22:28 2024 +0100
+
+    Añadido capítulo 2.
+
+commit eb84bae5c13a559c1526559892ec7bc256235d72
+Author: cdiagal <cdiagalprog@gmail.com>
+Date:   Mon Oct 14 13:11:41 2024 +0100
+
+    Añadido capítulos 1.
+```
+
+----
+
+## -Ejercicio 3.
+
+### Se crea el fichero *"capítulo3.txt"*.
+
+```bash
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ cat > capitulos/capitulo3.txt
+```
+
+
+

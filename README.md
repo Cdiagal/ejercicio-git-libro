@@ -274,5 +274,9 @@ pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git branch 
   remotes/origin/main         6bd9a0f Initial commit
 ```
 
+### Se añade el contenido de la rama *"bibliografía"* con la rama "*main*" mediante un "git merge" y posteriormente se documenta el cambio con un "*commit*".
+
+
+
 
 

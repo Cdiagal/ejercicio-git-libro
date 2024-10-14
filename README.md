@@ -317,6 +317,30 @@ remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
 To https://github.com/Cdiagal/ejercicio-git-libro
    b7c1296..eeac524  main -> main
 ```
+
+### Se ejecuta el comando *"git log --graph --all --oneline"* para mostrar la historia del repositorio incluyendo todas las ramas.
+
+```bash
+
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git log --graph --all --oneline
+* 9a62fed (HEAD -> main, origin/main, origin/HEAD) Se hacen nuevas modificaciones para subsanar errores
+* eeac524 Se añade el capítulo 4
+* b7c1296 Se hace merge
+* c0f9a30 Se genera un git merge a la rama principal
+*   08f5431 Merge branch 'bibliografía'
+|\  
+| * c8da4bf (origin/bibliografía, bibliografía) Se genera el último cambio
+| * a6f3b6f Se crea la rama bibliografía
+* | 7a47ea7 cambios en capitulo2.txt
+|/  
+* ff66f14 Añadido el índice.
+* bc12be7 Se crea índice.
+* d0c568a Añadido capítulo 3.
+* d2da645 Añadido capítulo 2.
+* eb84bae Añadido capítulos 1.
+* 6bd9a0f Initial commit
+
+```
 </details>
 
 

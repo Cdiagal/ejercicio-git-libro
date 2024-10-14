@@ -1,4 +1,4 @@
-# Ejercicio-git-libro
+# Ejercicio-git-libro <img src="logomark-orange@2x.png" width="25"/>
 
 <div align="justify">
 

@@ -343,4 +343,57 @@ pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git log --g
 ```
 </details>
 
+---
 
+
+## -Ejercicio 7.
+
+<details>
+    <summary>Clic para ver el contenido</summary>
+
+### Se cabmia a la rama bibliografía y se crea el fichero *"bibliografia.txt"* añadiendo la referencia descrita en las indicaciones.
+
+```bash
+
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git branch            
+* bibliografía
+  main
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ cat > bibliografia.txt
+Chacon, S. and Straub, B. Pro Git. Apress.
+
+```
+
+### Se hace un commit con el comentario descrito y se muestra el historial del repositorio incluyendo todas las ramas.
+
+```bash
+
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git add .
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git commit -m "Añadida la primera referencia bibliográfica"
+[bibliografía 8a9200e] Añadida la primera referencia bibliográfica
+ 1 file changed, 1 insertion(+)
+ create mode 100644 bibliografia.txt
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git log --graph --all --oneline                            
+* 8a9200e (HEAD -> bibliografía) Añadida la primera referencia bibliográfica
+| * 9eb7e43 (origin/main, origin/HEAD, main) se ejecuta git log --graph --all --oneline y se cambia de rama a bibliografía
+| * 9a62fed Se hacen nuevas modificaciones para subsanar errores
+| * eeac524 Se añade el capítulo 4
+| * b7c1296 Se hace merge
+| * c0f9a30 Se genera un git merge a la rama principal
+| *   08f5431 Merge branch 'bibliografía'
+| |\  
+| |/  
+|/|   
+* | c8da4bf (origin/bibliografía) Se genera el último cambio
+* | a6f3b6f Se crea la rama bibliografía
+| * 7a47ea7 cambios en capitulo2.txt
+|/  
+* ff66f14 Añadido el índice.
+* bc12be7 Se crea índice.
+* d0c568a Añadido capítulo 3.
+* d2da645 Añadido capítulo 2.
+* eb84bae Añadido capítulos 1.
+* 6bd9a0f Initial commit
+
+```
+
+</details>

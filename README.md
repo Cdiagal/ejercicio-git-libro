@@ -201,6 +201,78 @@ index 4780265..78c4b1b 100644
 
 ### Se crea el fichero *"índice.txt"*.
 
+```bash
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ cat > indice.txt
+```
+### Se añaden cambios y se hace un *"commit"*.
+
+```bash
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git commit -m "Se crea índice."
+[main bc12be7] Se crea índice.
+ 2 files changed, 99 insertions(+)
+ create mode 100644 indice.txt
+ ```
+
+ ###  Se hace un *"echo"*.
+
+ ```bash
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ echo "Indice de los capítulos, con conceptos avanzados de git" >> indice.txt
+```
+
+### Se añaden los cambios a la zona de trabajo temporal, se vuelve a hacer un *"commit"* y se muestra quién ha hecho los cambios en el fichero con un *"git annotate"*.
+
+```bash
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git add .
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git commit -m "Añadido el índice."
+[main ff66f14] Añadido el índice.
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git annotate indice.txt
+ff66f149        (   cdiagal     2024-10-14 13:41:12 +0100       1)Indice de los cápitulos, con conceptos avanzados de git.Indice de los capítulos, con conceptos avanzados de git.
+```
+
+---
+
+## -Ejercicio 5.
+
+### Se crea una nueva rama llamada "bibliografía".
+
+```bash
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git checkout -b bibliografía                                                
+Cambiado a nueva rama 'bibliografía'
+```
+
+### Se añaden los cambios a la zona de trabajo temporal, se hace un *"commit"* y se hace un *"push"* para actualizar todo el trabajo en la nube.
+
+```bash
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git add .
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git commit -m "Se crea la rama bibliografía"
+[bibliografía a6f3b6f] Se crea la rama bibliografía
+ 1 file changed, 40 insertions(+)
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git push --set-upstream origin bibliografía
+Enumerando objetos: 28, listo.
+Contando objetos: 100% (28/28), listo.
+Compresión delta usando hasta 4 hilos
+Comprimiendo objetos: 100% (24/24), listo.
+Escribiendo objetos: 100% (26/26), 3.41 KiB | 873.00 KiB/s, listo.
+Total 26 (delta 7), reusados 0 (delta 0), pack-reusados 0
+remote: Resolving deltas: 100% (7/7), done.
+remote: 
+remote: Create a pull request for 'bibliografía' on GitHub by visiting:
+remote:      https://github.com/Cdiagal/ejercicio-git-libro/pull/new/bibliograf%C3%ADa
+remote: 
+To https://github.com/Cdiagal/ejercicio-git-libro
+ * [new branch]      bibliografía -> bibliografía
+Rama 'bibliografía' configurada para hacer seguimiento a la rama remota 'bibliografía' de 'origin'.
+```
+
+```bash
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git branch -av
+* bibliografía                a6f3b6f Se crea la rama bibliografía
+  main                        ff66f14 [adelante 5] Añadido el índice.
+  remotes/origin/HEAD         -> origin/main
+  remotes/origin/bibliografía a6f3b6f Se crea la rama bibliografía
+  remotes/origin/main         6bd9a0f Initial commit
+```
 
 
 

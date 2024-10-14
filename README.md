@@ -501,3 +501,41 @@ pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git commit 
  2 files changed, 107 insertions(+), 1 deletion(-)
 
 ```
+
+### Se cambia a la rama principal y se fusiona la rama *"bibliografía"* con la rama *"main"*.
+
+```bash
+
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git checkout main
+Cambiado a rama 'main'
+Tu rama está adelantada a 'origin/main' por 3 commits.
+  (usa "git push" para publicar tus commits locales)
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git merge bibliografía
+Actualizando 8527db4..f60bfff
+Fast-forward
+ README.md        | 106 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-
+ bibliografia.txt |   3 +++
+ 2 files changed, 108 insertions(+), 1 deletion(-)
+
+```
+
+### Se resuelve el conflicto dejando el fichero *"bibliografia.txt"* con las nuevas referencias.
+
+```bash
+
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ cat > bibliografía.txt
+Chacon, S. and Straub, B. Pro Git. Apress.
+Loeliger, J. and McCullough, M. Version control with Git. O’Reilly.
+Hodson, R. Ry’s Git Tutorial. Smashwords (2014)
+
+```
+
+### Se añaden los cambios a la zona de intercambio temporal y se hace un commit con el mensaje indicado.
+
+```bash
+
+
+
+```
+
+### Se muestra la historia del repositorio incluyendo todas las ramas.

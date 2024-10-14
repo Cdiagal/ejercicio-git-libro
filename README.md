@@ -487,9 +487,7 @@ Cambiado a nueva rama 'bibliografía'
 
 pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ cat > bibliografia.txt
 Chacon, S. and Straub, B. Pro Git. Apress.
-Chacon, S. and Straub, B. Pro Git. Apress.                         
 Loeliger, J. and McCullough, M. Version control with Git. O’Reilly.
-Hodson, R. Ry’s Git Tutorial. Smashwords (2014)
 
 ```
 
@@ -497,6 +495,9 @@ Hodson, R. Ry’s Git Tutorial. Smashwords (2014)
 
 ```bash
 
-
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git add .
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git commit -m "Añadida nueva referencia bibliográfica"
+[bibliografía c264086] Añadida nueva referencia bibliográfica
+ 2 files changed, 107 insertions(+), 1 deletion(-)
 
 ```

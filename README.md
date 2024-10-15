@@ -66,7 +66,7 @@ Date:   Mon Oct 14 12:56:25 2024 +0100
 ----
 
 
-## -Ejercicio 2.
+## - Ejercicio 2.
 
 <details>
     <summary>Clic para ver el contenido</summary>
@@ -106,7 +106,7 @@ Date:   Mon Oct 14 13:11:41 2024 +0100
 
 ----
 
-## -Ejercicio 3.
+## - Ejercicio 3.
 
 <details>
     <summary>Clic para ver el contenido</summary>
@@ -178,7 +178,7 @@ index 9a06b52..d05f9f3 100644
 
 ---
 
-## -Ejercicio 4.
+## - Ejercicio 4.
 
 <details>
     <summary>Clic para ver el contenido</summary>
@@ -218,7 +218,7 @@ ff66f149        (   cdiagal     2024-10-14 13:41:12 +0100       1)Indice de los 
 
 ---
 
-## -Ejercicio 5.
+## - Ejercicio 5.
 
 <details>
     <summary>Clic para ver el contenido</summary>
@@ -285,12 +285,12 @@ To https://github.com/Cdiagal/ejercicio-git-libro
 
 ---
 
-## -Ejercicio 6.
+## - Ejercicio 6.
 
 <details>
     <summary>Clic para ver el contenido</summary>
 
-### Se crea el fichero *"capitulos/capitulo4.txt"*.
+### Se crea el fichero *"capítulos/capítulo4.txt"*.
 
 ```bash
 pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ cat > capitulos/capitulo4.txt         
@@ -346,12 +346,12 @@ pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git log --g
 ---
 
 
-## -Ejercicio 7.
+## - Ejercicio 7.
 
 <details>
     <summary>Clic para ver el contenido</summary>
 
-### Se cabmia a la rama bibliografía y se crea el fichero *"bibliografia.txt"* añadiendo la referencia descrita en las indicaciones.
+### Se cabmia a la rama bibliografía y se crea el fichero *"bibliografía.txt"* añadiendo la referencia descrita en las indicaciones.
 
 ```bash
 
@@ -400,7 +400,7 @@ pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git log --g
 
 ---
 
-## -Ejercicio 8.
+## - Ejercicio 8.
 
 <details>
     <summary>Clic para ver el contenido</summary>
@@ -467,7 +467,7 @@ pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git log --g
 
 ---
 
-## Ejercicio 9.
+## - Ejercicio 9.
 
 <details>
     <summary>Clic para ver el contenido</summary>

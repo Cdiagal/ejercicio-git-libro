@@ -2,12 +2,10 @@
 
 <div align="justify">
 
-
-
 ## - Ejercicio 1.
 
 <details>
-    <summary>Clic para ver el contenido.</summary>
+    <summary>Clic para ver el contenido</summary>
 
 ### Crear la carpeta *Capítulos* y crear dentro el fichero *capítulo1.txt*.
 
@@ -563,9 +561,11 @@ pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git log --g
 * | c0f9a30 Se genera un git merge a la rama principal
 
 ```
-<details>
+</details>
 
----
 
+# Ejercicio-git-tag
+
+## - Ejercicio 1.
 
 

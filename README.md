@@ -647,13 +647,53 @@ pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git commit 
 
 ```bash
 
-pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git add . 
-pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git commit -m "Se crea nueva rama y archivo capitulo5.txt"
-[nueva-funcionalidad 6bee86b] Se crea nueva rama y archivo capitulo5.txt
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git commit -m "Se crea una nueva rama y archivo capitulo5.1.txt" 
+[nueva-funcionalidad 34bf73f] Se crea una nueva rama y archivo capitulo5.1.txt
+ 1 file changed, 25 insertions(+)
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git checkout main
+Cambiado a rama 'main'
+
+
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git cherry-pick 6bee86bf180ab7cddcf3efab2fda53d5e9945e44
+[main 3206924] Se crea nueva rama y archivo capitulo5.txt
+ Date: Wed Oct 23 22:56:47 2024 +0100
  2 files changed, 41 insertions(+), 1 deletion(-)
  create mode 100644 capitulos/capitulo5.txt
 
 ```
 
+---
+
+### Se muestra el historial de la rama main para comprobar que el commit ha sido agregado.
+
+```bash
+
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git log
+commit 3206924de2739175bdc40adef1955759bb3e3d74 (HEAD -> main)
+Author: cdiagal <cdiagalprog@gmail.com>
+Date:   Wed Oct 23 22:56:47 2024 +0100
+
+         Se crea nueva rama y archivo capitulo5.txt
+```
+
 >>>>>>> nueva-funcionalidad
+
+## - Ejercicio 4.
+
+<details>
+    <summary>Clic para ver el contenido</summary>
+
+### Se pasa a la rama "main" y se añade al archivo "README.md", ciertas descripciones como pueden ser esta.
+
+```bash
+
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git checkout -b "nueva-funcionalidad"
+Cambiado a nueva rama 'nueva-funcionalidad'
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git branch
+  bibliografía
+  main
+* nueva-funcionalidad
+
+```
+
 </details>

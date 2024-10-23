@@ -826,10 +826,19 @@ To https://github.com/Cdiagal/ejercicio-git-libro
 <details>
     <summary>Clic para ver el contenido</summary>
 
-### Se elimina la etiqueta "v1.0.0" localmente y en remoto.
+### Se hace un commit en la rama "main" y luego se restablece el estado del repositorio al commit anterior utilizando *"git reset --hard"* y luego se verifica el estado del respositorio. 
 
 ```bash //esta es en local.
 
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git log --oneline
+ccedce4 (HEAD -> main) Se genera el commit del ejercicio8
+bbbc134 Revert "Merge branch 'nueva-funcionalidad'"
+9691c2b Merge branch 'nueva-funcionalidad'
+7b1c0e4 (nueva-funcionalidad) se genera el ejercicio6
+2a01b0c (origin/main, origin/HEAD) se genera el ejercicio6
+bb6e54d Revert "Se genera otro cambio para hacer un merge"
+c09b079 Revert "Se genera otro cambio para hacer un merge"
+0132fa7 Nuevo cambio
 
 ```
 

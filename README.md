@@ -588,5 +588,13 @@ pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git tag
 <details>
     <summary>Clic para ver el contenido</summary>
 
-###
+### Se agrega una línea de texto en el archivo "capítulo1.txt" y se genera un commit para posterioremente localizarlo y revertirlo.
+
+```bash
+
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git commit -m "Se agrega una línea en el capítulo1.txt"
+[main 238c9f5] Se agrega una línea en el capítulo1.txt
+ 2 files changed, 23 insertions(+), 1 deletion(-)
+
+```
 

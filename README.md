@@ -568,4 +568,25 @@ pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git log --g
 
 ## - Ejercicio 1.
 
+<details>
+    <summary>Clic para ver el contenido</summary>
+
+### Se crean etiquetas para luego enviarla al repositorio remoto y se muestra la lista de etiquetas presentes en el repositorio usando *"git tag"*.
+
+```bash
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git tag
+1.0.0
+1.0.1
+
+```
+</details>
+
+--- 
+
+## - Ejercicio 2.
+
+<details>
+    <summary>Clic para ver el contenido</summary>
+
+###
 

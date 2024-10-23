@@ -675,6 +675,14 @@ Date:   Wed Oct 23 22:56:47 2024 +0100
 ```
 
 ---
+## - Ejercicio 4.
+
+<details>
+    <summary>Clic para ver el contenido</summary>
+
+### Crear un conflico de fusión modificando el mismo archivo entre las ramas *"main"* y *"nueva-funcionalidad"*.
+
+---
 
 ## - Ejercicio 5.
 

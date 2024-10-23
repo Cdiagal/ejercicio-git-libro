@@ -772,6 +772,13 @@ pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git log --o
 
 ### Se realiza un merge de la rama *"nueva-funcionalidad"* en la rama main.
 
+```bash
 
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git merge nueva-funcionalidad
+Ya está actualizado.
+
+```
+
+### Se 
 
 </details>

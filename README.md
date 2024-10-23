@@ -588,9 +588,5 @@ pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git tag
 <details>
     <summary>Clic para ver el contenido</summary>
 
-### Se agrega una línea en el capítulo para hacer un commit y luego revertirlo, mostrando el historial de commits para verificar la reversión del commit.
+###
 
-```bash
-
-
-```

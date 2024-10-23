@@ -628,4 +628,29 @@ pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git branch
 
 ```
 
+### Se realiza un commit.
+
+```bash
+
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git add . 
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git commit -m "Se crea nueva rama y archivo capitulo5.txt"
+[nueva-funcionalidad 6bee86b] Se crea nueva rama y archivo capitulo5.txt
+ 2 files changed, 41 insertions(+), 1 deletion(-)
+ create mode 100644 capitulos/capitulo5.txt
+
+```
+
+
+### Se vuelve a la rama main y se usa *"git cherry-pick"* para aplicar el commit de la rama "nueva-funcionalidad" en "main".
+
+```bash
+
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git add . 
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git commit -m "Se crea nueva rama y archivo capitulo5.txt"
+[nueva-funcionalidad 6bee86b] Se crea nueva rama y archivo capitulo5.txt
+ 2 files changed, 41 insertions(+), 1 deletion(-)
+ create mode 100644 capitulos/capitulo5.txt
+
+```
+
 </details>

@@ -745,16 +745,3 @@ pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git log --o
 ```
 
 </details>
-
----
-
-## - Ejercicio 6.
-
-<details>
-    <summary>Clic para ver el contenido</summary>
-
-### Se realiza un merge de la rama *"nueva-funcionalidad"* en la rama main.
-
-
-
-</details>

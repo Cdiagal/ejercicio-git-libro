@@ -673,6 +673,7 @@ Date:   Wed Oct 23 22:56:47 2024 +0100
 
          Se crea nueva rama y archivo capitulo5.txt
 ```
+</details>
 
 ---
 ## - Ejercicio 4.
@@ -683,6 +684,7 @@ Date:   Wed Oct 23 22:56:47 2024 +0100
 ### Crear un conflico de fusión modificando el mismo archivo entre las ramas *"main"* y *"nueva-funcionalidad"*.
 
 ---
+</details>
 
 ## - Ejercicio 5.
 

@@ -771,7 +771,66 @@ pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git log --o
 <details>
     <summary>Clic para ver el contenido</summary>
 
-### Crear un conflico de fusión modificando el mismo archivo entre las ramas *"main"* y *"nueva-funcionalidad"*.
+### Se realiza un *"merge"* de la rama *"nueva-funcionalidad"* a la rama *"main"*.
 
 ```bash
 
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git merge nueva-funcionalidad
+Auto-fusionando capitulos/capitulo2.txt
+Merge made by the 'ort' strategy.
+ capitulos/capitulo2.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+ ```
+
+### Se realiza un *"gir revert"* para revertir el *"merge"*.
+
+```bash
+
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git revert -m1 9691c2b1143dec01506da032f12c95be5a0b5539
+[main bbbc134] Revert "Merge branch 'nueva-funcionalidad'"
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+```
+
+</details>
+
+---
+
+## - Ejercicio 7.
+
+<details>
+    <summary>Clic para ver el contenido</summary>
+
+### Se elimina la etiqueta "v1.0.0" localmente y en remoto.
+
+```bash //esta es en local.
+
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git tag -d 1.0.0
+Etiqueta '1.0.0' eliminada (era ca95fb6)
+
+```
+
+```bash //esta es en remoto.
+
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git push origin :refs/tags/1.0.0
+To https://github.com/Cdiagal/ejercicio-git-libro
+ - [deleted]         1.0.0
+
+```
+
+</details>
+
+# - Ejercicio 8.
+
+<details>
+    <summary>Clic para ver el contenido</summary>
+
+### Se elimina la etiqueta "v1.0.0" localmente y en remoto.
+
+```bash //esta es en local.
+
+
+```
+
+</details>

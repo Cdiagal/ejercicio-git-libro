@@ -628,8 +628,6 @@ pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git branch
 
 ```
 
-<<<<<<< HEAD
-=======
 ### Se realiza un commit.
 
 ```bash
@@ -676,7 +674,6 @@ Date:   Wed Oct 23 22:56:47 2024 +0100
          Se crea nueva rama y archivo capitulo5.txt
 ```
 
->>>>>>> nueva-funcionalidad
 
 ## - Ejercicio 4.
 
@@ -687,12 +684,10 @@ Date:   Wed Oct 23 22:56:47 2024 +0100
 
 ```bash
 
-pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git checkout -b "nueva-funcionalidad"
-Cambiado a nueva rama 'nueva-funcionalidad'
 pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git branch
   bibliografía
-  main
-* nueva-funcionalidad
+* main
+  nueva-funcionalidad
 
 ```
 

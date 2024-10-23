@@ -674,20 +674,18 @@ Date:   Wed Oct 23 22:56:47 2024 +0100
          Se crea nueva rama y archivo capitulo5.txt
 ```
 
+---
 
-## - Ejercicio 4.
+## - Ejercicio 5.
 
 <details>
     <summary>Clic para ver el contenido</summary>
 
-### Se pasa a la rama "main" y se añade al archivo "README.md", ciertas descripciones como pueden ser esta.
+### Crear un conflico de fusión modificando el mismo archivo entre las ramas *"main"* y *"nueva-funcionalidad"*.
 
 ```bash
 
-pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git branch
-  bibliografía
-* main
-  nueva-funcionalidad
+
 
 ```
 

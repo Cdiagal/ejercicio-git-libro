@@ -681,9 +681,26 @@ Date:   Wed Oct 23 22:56:47 2024 +0100
 <details>
     <summary>Clic para ver el contenido</summary>
 
-### Crear un conflico de fusión modificando el mismo archivo entre las ramas *"main"* y *"nueva-funcionalidad"*.
+### Se realia un cambio en la rama main se usa el comando *"git diff"* para encontrar los cambios entre *"main"* y *"nueva-funcionalidad"*. Se documentan las diferencias.
 
----
+```bash
+
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git diff main nueva-funcionalidad
+diff --git a/README.md b/README.md
+index 9ba54fe..da4cb35 100644
+--- a/README.md
++++ b/README.md
+@@ -645,50 +645,12 @@ pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git commit
+ 
+ ```bash
+ 
+-pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git commit -m "Se crea una nueva rama y archivo capitulo5.1.txt" 
+-[nueva-funcionalidad 34bf73f] Se crea una nueva rama y archivo capitulo5.1.txt
+- 1 file changed, 25 insertions(+)
+-pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git checkout main
+
+```
+
 
 </details>
 
@@ -743,5 +760,18 @@ pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git log --o
 :
 
 ```
+
+</details>
+
+---
+
+## - Ejercicio 6.
+
+<details>
+    <summary>Clic para ver el contenido</summary>
+
+### Se realiza un merge de la rama *"nueva-funcionalidad"* en la rama main.
+
+
 
 </details>

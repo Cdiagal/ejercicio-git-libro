@@ -709,11 +709,25 @@ CONFLICTO (contenido): Conflicto de fusión en capitulos/capitulo2.txt
 Fusión automática falló; arregle los conflictos y luego realice un commit con el resultado.
 
 ```
-### Crear un conflico de fusión modificando el mismo archivo entre las ramas *"main"* y *"nueva-funcionalidad"*.
+### Se realiza un commit y se muestra la historia del repositorio.
 
 ```bash
 
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git log --oneline --graph
 
+*   4dfeb16 (HEAD -> main) se genera un cambio en el capítulo 2 en dos ramas distintas para generar un conflicto de fusión
+|\  
+| * eaea0ec (nueva-funcionalidad) se genera un cambio en el capítulo 2 en dos ramas distintas para generar un conflicto de fusión
+* | ff5ea50 se genera un cambio en el capítulo 2 en dos ramas distintas para generar un conflicto de fusión
+* | 41e40e6 Se genera otro commit
+* | a6714ca (origin/main, origin/HEAD) Se genera un commit para poder hacer checkout de rama a main
+* | 324bf62 Se genera el merge entre la nueva rama y main
+|\| 
+| * 34bf73f Se crea una nueva rama y archivo capitulo5.1.txt
+| * 6bee86b Se crea nueva rama y archivo capitulo5.txt
+* | 3206924 Se crea nueva rama y archivo capitulo5.txt
+|/  
+:
 
 ```
 

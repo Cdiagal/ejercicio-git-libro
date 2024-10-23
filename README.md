@@ -685,6 +685,34 @@ Date:   Wed Oct 23 22:56:47 2024 +0100
 
 ```bash
 
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git branch
+  bibliografía
+* main
+  nueva-funcionalidad
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git add .  
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git commit -m "se genera un cambio en el capítulo 2 en dos ramas distintas para generar un conflicto de fusión"
+[main ff5ea50] se genera un cambio en el capítulo 2 en dos ramas distintas para generar un conflicto de fusión
+ 2 files changed, 8 insertions(+), 7 deletions(-)
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git checkout nueva-funcionalidad
+Cambiado a rama 'nueva-funcionalidad'
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git add .
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git commit -m "se genera un cambio en el capítulo 2 en dos ramas distintas para generar un conflicto de fusión"
+[nueva-funcionalidad eaea0ec] se genera un cambio en el capítulo 2 en dos ramas distintas para generar un conflicto de fusión
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git checkout main                                                                                              
+Cambiado a rama 'main'
+Tu rama está adelantada a 'origin/main' por 2 commits.
+  (usa "git push" para publicar tus commits locales)
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git merge nueva-funcionalidad
+Auto-fusionando capitulos/capitulo2.txt
+CONFLICTO (contenido): Conflicto de fusión en capitulos/capitulo2.txt
+Fusión automática falló; arregle los conflictos y luego realice un commit con el resultado.
+
+```
+### Crear un conflico de fusión modificando el mismo archivo entre las ramas *"main"* y *"nueva-funcionalidad"*.
+
+```bash
+
 
 
 ```

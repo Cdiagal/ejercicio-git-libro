@@ -684,7 +684,10 @@ Date:   Wed Oct 23 22:56:47 2024 +0100
 ### Crear un conflico de fusión modificando el mismo archivo entre las ramas *"main"* y *"nueva-funcionalidad"*.
 
 ---
+
 </details>
+
+---
 
 ## - Ejercicio 5.
 

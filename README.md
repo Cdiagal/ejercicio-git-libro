@@ -588,5 +588,44 @@ pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git tag
 <details>
     <summary>Clic para ver el contenido</summary>
 
-###
+### Se hace un cambio añadiendo una línea en el archivo "capítulo1.txt" y se genera un commit. Luego se revierte con *"git revert"* y se muestra el resultado con *"git log"*.
 
+```bash
+
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git log
+commit d29f20a382c029a8465058fb6251aaa41b502200 (HEAD -> main)
+Author: cdiagal <cdiagalprog@gmail.com>
+Date:   Wed Oct 23 22:45:57 2024 +0100
+
+    Revert "Se agrega una línea en el capítulo1"
+    
+    This reverts commit 3e4c36d317f9a4aecf7f81c7bf6d9c3c7deea495.
+
+commit 3e4c36d317f9a4aecf7f81c7bf6d9c3c7deea495
+Author: cdiagal <cdiagalprog@gmail.com>
+Date:   Wed Oct 23 22:45:19 2024 +0100
+
+```
+</details>
+
+--- 
+
+## - Ejercicio 3.
+
+<details>
+    <summary>Clic para ver el contenido</summary>
+
+### Se crea una nueva rama llamada "nueva-funcionalidad", se añade el archivo "capitulo5.txt" con una línea de texto de contenido.
+
+```bash
+
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git checkout -b "nueva-funcionalidad"
+Cambiado a nueva rama 'nueva-funcionalidad'
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/ejercicio-git-libro$ git branch
+  bibliografía
+  main
+* nueva-funcionalidad
+
+```
+
+</details>

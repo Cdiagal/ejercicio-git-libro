@@ -821,6 +821,8 @@ To https://github.com/Cdiagal/ejercicio-git-libro
 
 </details>
 
+---
+
 # - Ejercicio 8.
 
 <details>

@@ -823,7 +823,7 @@ To https://github.com/Cdiagal/ejercicio-git-libro
 
 ---
 
-# - Ejercicio 8.
+## - Ejercicio 8.
 
 <details>
     <summary>Clic para ver el contenido</summary>
